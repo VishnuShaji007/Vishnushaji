@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu Shaji | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Vishnu Shaji home">Vishnu Shaji</a>
+      <nav class="nav-actions" aria-label="Portfolio sections">
+        <a class="nav-button" href="#achievements">
+          <span>Achievements</span>
+        </a>
+        <a class="nav-button" href="#hobbies">
+          <span>Hobbies</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="parallax-layer layer-one" aria-hidden="true"></div>
+        <div class="parallax-layer layer-two" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <figure class="portrait-wrap reveal">
+            <img
+              class="portrait"
+              src="assets/vishnu-photo.jpg"
+              alt="Portrait of Vishnu Shaji"
+              onerror="this.classList.add('is-missing'); this.removeAttribute('src');"
+            />
+            <figcaption class="portrait-fallback" aria-hidden="true">
+              <span>VS</span>
+            </figcaption>
+          </figure>
+
+          <article class="intro-panel reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h1 id="intro-title">Vishnu Shaji</h1>
+            <p class="intro-copy">
+              I am a disciplined, detail-oriented individual with a strong
+              foundation in leadership and public performance. My background in
+              cultural activities and parade command has developed my mental
+              toughness, communication skills, and ability to remain calm under
+              pressure. I thrive in structured environments and take a proactive
+              approach to physical fitness and personal growth.
+            </p>
+            <div class="focus-strip" aria-label="Professional focus areas">
+              <span>Leadership</span>
+              <span>Public Performance</span>
+              <span>Physical Fitness</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="achievements" class="parallax-break parallax-break-achievements" aria-label="Achievements">
+        <div class="parallax-break-content reveal">
+          <p class="eyebrow">Milestones</p>
+          <h2>Achievements</h2>
+        </div>
+      </section>
+
+      <section class="content-section section-achievements">
+        <div class="section-parallax-bg" aria-hidden="true"></div>
+        <div class="section-inner">
+          <div class="achievement-list">
+            <article class="achievement-item reveal">
+              <span class="item-number">01</span>
+              <div>
+                <h3>Band Competitions</h3>
+                <p>
+                  Earned multiple school-level distinctions in band performance,
+                  including interschool gold and silver placements and strong
+                  intra-school results.
+                </p>
+              </div>
+            </article>
+
+            <article class="achievement-item reveal">
+              <span class="item-number">02</span>
+              <div>
+                <h3>Table Tennis</h3>
+                <p>
+                  Secured a doubles gold in intra-school table tennis, combining
+                  competitive focus with teamwork and quick decision-making.
+                </p>
+              </div>
+            </article>
+
+            <article class="achievement-item reveal">
+              <span class="item-number">03</span>
+              <div>
+                <h3>Speaking Events</h3>
+                <p>
+                  Achieved first-place recognition in JAM and stress interview
+                  formats, reflecting confidence, composure, and clarity under
+                  pressure.
+                </p>
+              </div>
+            </article>
+
+            <article class="achievement-item reveal">
+              <span class="item-number">04</span>
+              <div>
+                <h3>Model United Nations</h3>
+                <p>
+                  Received special and verbal mentions across MUN participation,
+                  demonstrating research ability, diplomacy, and persuasive
+                  communication.
+                </p>
+              </div>
+            </article>
+
+            <article class="achievement-item reveal">
+              <span class="item-number">05</span>
+              <div>
+                <h3>School Leadership</h3>
+                <p>
+                  Served as School Pupil Leader, developing experience in parade
+                  command, student coordination, discipline, and visible leadership.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobbies" class="parallax-break parallax-break-hobbies" aria-label="Hobbies">
+        <div class="parallax-break-content reveal">
+          <p class="eyebrow">Interests</p>
+          <h2>Hobbies</h2>
+        </div>
+      </section>
+
+      <section class="content-section section-hobbies">
+        <div class="section-parallax-bg" aria-hidden="true"></div>
+        <div class="section-inner">
+          <div class="hobby-grid">
+            <article class="hobby-card reveal hobby-music">
+              <h3>Music</h3>
+              <p>
+                Practicing music through both vocal performance and percussion,
+                with an appreciation for rhythm, stage presence, and discipline.
+              </p>
+            </article>
+
+            <article class="hobby-card reveal hobby-sports">
+              <h3>Sports</h3>
+              <p>
+                Staying active through cricket and table tennis, approached with
+                enthusiasm, teamwork, and a healthy competitive spirit.
+              </p>
+            </article>
+
+            <article class="hobby-card reveal hobby-fitness">
+              <h3>Fitness</h3>
+              <p>
+                Prioritizing physical fitness as a consistent habit that supports
+                confidence, focus, resilience, and long-term personal growth.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed for Vishnu Shaji</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
